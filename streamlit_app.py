@@ -1,5 +1,8 @@
 import streamlit as st
 
+"Hello! Let's create an error:"
+
+3 / 0
 
 
 "# st.metric prototype"
