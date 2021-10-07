@@ -1,4 +1,4 @@
 import streamlit as st
-import tqdm
+import streamlit_analytics
 
 st.write("Hello!")
