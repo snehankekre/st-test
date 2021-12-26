@@ -1,16 +1,7 @@
 import streamlit as st
 
-st.write("Hello World")
-
-@st.cache
-def foo():
-    return 3
-
-@st.cache
-def foo2():
-    return 3
-
-st.write(foo())
-foo2()
+st.title("My Streamlit App")
+st.write("Some text bla blub")
+st.text_input("A widget")
 
 print("🎈")
