@@ -1,3 +1,4 @@
 import streamlit as st
+from rich import print
 
-print("That's white... [32mThat's green... [0mAnd back")
+print("Hello, [bold magenta]World[/bold magenta]!", ":vampire:", locals())
