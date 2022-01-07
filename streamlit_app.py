@@ -13,7 +13,8 @@ console = Console(force_terminal=True)
 console.print("[yellow][09:26:03][/yellow] 🚥 Connecting...")
 console.print(
     """
-[09:26:03] 🚥 Connecting...
+    
+[yellow][09:26:03][/yellow] 🚥 Connecting...
 [09:26:04] 🚀 Starting up...
               - owner:        [cyan]streamlit[/cyan]
               - repository:   [cyan]app-frontpage[/cyan]
