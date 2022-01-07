@@ -66,3 +66,16 @@ st.write("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at rh
 
 Phasellus placerat blandit interdum. Vestibulum eleifend nec libero eu consectetur. Etiam eget scelerisque ex. Donec vehicula sapien maximus magna hendrerit, malesuada tempor diam tincidunt. Proin libero neque, sollicitudin sit amet pharetra nec, aliquet eu risus. Donec tincidunt interdum mollis. Morbi facilisis orci non lectus hendrerit gravida.""")
 
+import altair as alt
+import pandas as pd
+
+source = pd.DataFrame({
+    'a': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],
+    'b': [28, 55, 43, 91, 81, 53, 19, 87, 52]
+})
+
+chart = alt.Chart(source).mark_bar().encode(
+    x='a',
+    y='b'
+)
+st.altair_chart(chart)
