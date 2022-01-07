@@ -20,11 +20,11 @@ console.print(
               - branch:       [cyan]main[/cyan]
               - main module:  [cyan]streamlit_app.py[/cyan]
 [09:26:09] 🐙 Cloning repository...
-[09:26:10]    Cloning into 'app-frontpage'...
+[09:26:10]    Cloning into [white]'app-frontpage'[/white]...
 [09:26:55]    Cloned repository!                    
 [09:27:00] 📦 Processing dependencies...
-              - tool:  pipenv
-              - file:  /app/app-frontpage/Pipfile
+              - tool:  [cyan]pipenv[/cyan]
+              - file:  [cyan]/app/app-frontpage/Pipfile[/cyan]
     """
 )
 st.write("Hello")
