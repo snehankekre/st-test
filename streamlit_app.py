@@ -1,7 +1,7 @@
 import streamlit as st
 from rich.console import Console
 from rich.panel import Panel
-from rich.box import HORIZONTALS
+from rich.box import Box, HORIZONTALS
 
 console = Console(force_terminal=True)
 
@@ -29,6 +29,20 @@ console.print(
               - file:  [cyan]/app/app-frontpage/Pipfile[/cyan]
     """
 )
+
+CUSTOM_HORIZONTALS = Box(
+    """\
+────
+​​​​
+────
+​​​​
+────
+────
+​​​​
+────
+"""
+)
+
 console.print(Panel("""Installing dependencies from Pipfile.lock (49795d)...
 Ignoring appnope: markers 'sys_platform == "darwin" and platform_system == "Darwin"' don't match your environment
 Collecting backports.zoneinfo==0.2.1
@@ -44,5 +58,5 @@ Installing collected packages: cachetools
   Attempting uninstall: cachetools
     Found existing installation: cachetools 4.2.2
     Uninstalling cachetools-4.2.2:
-      Successfully uninstalled cachetools-4.2.2""", title="pipenv", box=HORIZONTALS, border_style="green"))
+      Successfully uninstalled cachetools-4.2.2""", title="pipenv", border_style="green"))
 st.write("Hello")
