@@ -15,10 +15,10 @@ console.print(
     """
 [09:26:03] 🚥 Connecting...
 [09:26:04] 🚀 Starting up...
-              - owner:        streamlit
-              - repository:   app-frontpage
-              - branch:       main
-              - main module:  streamlit_app.py
+              - owner:        [cyan]streamlit[/cyan]
+              - repository:   [cyan]app-frontpage[/cyan]
+              - branch:       [cyan]main[/cyan]
+              - main module:  [cyan]streamlit_app.py[/cyan]
 [09:26:09] 🐙 Cloning repository...
 [09:26:10]    Cloning into 'app-frontpage'...
 [09:26:55]    Cloned repository!                    
