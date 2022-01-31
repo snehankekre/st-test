@@ -61,7 +61,7 @@ Installing collected packages: cachetools
   Attempting uninstall: cachetools
     Found existing installation: cachetools 4.2.2
     Uninstalling cachetools-4.2.2:
-      Successfully uninstalled cachetools-4.2.2""", title="pipenv", border_style="#dbbbff"))
+      Successfully uninstalled cachetools-4.2.2""", title="pipenv", border_style="#dbbbff", box=HORIZONTALS))
 
 
 st.title("Title")
