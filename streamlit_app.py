@@ -30,7 +30,7 @@ console.print(
 [#f9ca2a][09:27:00][/#f9ca2a] 📦 Processing dependencies...
               - tool:  [#1be8c5]pipenv[/#1be8c5]
               - file:  [#1be8c5]/app/app-frontpage/Pipfile[/#1be8c5]
-              
+
     """
 )
 
