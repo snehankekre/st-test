@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8e674836ad64026d5cd9417da95ab71d2561da0cc822d110a2b966e358611d54"
+            "sha256": "1d5340b7e07455355d1ed94ebdb9cab2ecf0f417856074abaf91f80570da7342"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -255,21 +255,6 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==8.0.3"
-        },
-        "colorama": {
-            "hashes": [
-                "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b",
-                "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
-            "version": "==0.4.4"
-        },
-        "commonmark": {
-            "hashes": [
-                "sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60",
-                "sha256:da2f38c92590f83de410ba1a3cbceafbc74fee9def35f9251ba9a971d6d66fd9"
-            ],
-            "version": "==0.9.1"
         },
         "debugpy": {
             "hashes": [
@@ -1024,14 +1009,6 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
             "version": "==2.27.1"
         },
-        "rich": {
-            "hashes": [
-                "sha256:365ebcdbfb3aa8d4b0ed2490e0fbf7b886a39d14eb7ea5fb7aece950835e1eed",
-                "sha256:43e03d8eec12e21beaecc22c828a41c4247356414a12d5879834863d4ad53816"
-            ],
-            "index": "pypi",
-            "version": "==11.1.0"
-        },
         "send2trash": {
             "hashes": [
                 "sha256:d2c24762fd3759860a0aff155e45871447ea58d2be6bdd39b5c8f966a0c99c2d",
@@ -1064,12 +1041,11 @@
         },
         "streamlit": {
             "hashes": [
-                "sha256:0f98c55194cabca3642752730a149dc07f4edf4abc56f2fffc67ed97b0d55a0c",
-                "sha256:8cdb4c008ff63dc4522e86aed142912de53647244d97f82766a23dfee6ffe564",
-                "sha256:b0284ea77b23619a28436afeb6aa4049db5735883683132738300ca155fc1f34"
+                "sha256:ac2ad021a4dc5407ca523890b60e940d383705d62f8084c58d62ac7ae877f54a",
+                "sha256:ba4ddbce6d28726b70ffa68b923c43813137a7a35f994f73eb44c57577ac9023"
             ],
-            "path": "./streamlit-1.4.0-py2.py3-none-any.whl",
-            "version": "==1.4.0"
+            "index": "pypi",
+            "version": "==1.5.0"
         },
         "terminado": {
             "hashes": [

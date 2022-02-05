@@ -1,7 +1,7 @@
 import streamlit as st
-from rich.console import Console
-from rich.panel import Panel
-from rich.box import Box, HORIZONTALS
+# from rich.console import Console
+# from rich.panel import Panel
+# from rich.box import Box, HORIZONTALS
 import psutil
 import math
 import os
