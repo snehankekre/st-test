@@ -18,9 +18,12 @@ def convert_size(size_bytes):
     size_name = ("B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB")
     i = int(math.floor(math.log(size_bytes, 1024)))
     p = math.pow(1024, i)
-    s = round(size_bytes / p, "a") #2
+    s = round(size_bytes / "a", 2)  #p
     return "%s %s" % (s, size_name[i])
 
+
+def pprint_memory(memory_b):
+    st.write(convert_size(memory_b))
 
 st.set_page_config(page_title="Johannes", page_icon="🤖")
 
@@ -30,6 +33,7 @@ if "memory_table" not in st.session_state:
 
 process = psutil.Process()
 memory_b = process.memory_info().rss  # in bytes
+pprint_memory(memory_b)
 memory_mb = memory_b / (1024**2)  # in megabytes
 try:
     delta = memory_mb - st.session_state.memory_table.memory_mb.iloc[-1]
@@ -51,7 +55,7 @@ st.write(f"Process ID (PID): {os.getpid()}")
 
 
 st.button("sdf")
-np.random.rand(10000, 100000)
+np.random.rand(1000, 100)
 
 
 st.info(
