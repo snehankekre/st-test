@@ -1,3 +1,6 @@
 pandas
 ./streamlit-1.4.0-py2.py3-none-any.whl
 numpy
+rich
+psutil
+plost
